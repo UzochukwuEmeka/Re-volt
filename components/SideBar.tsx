@@ -18,7 +18,7 @@ const SideBar = ({ user }: SiderbarProps) => {
             height={34}
             className="size-[24px] max-xl:size-14"
           />
-          <h1 className="side-logo">Volt</h1>
+          <h1 className="side-logo j">Volt</h1>
         </Link>
         {sidebarLinks.map((link) => {
           const isActive =
